@@ -1,0 +1,15 @@
+@media only screen and (min-width: 992px){
+  nav #menu_desktop{
+    /* En este caso, el menu de escritorio se muestra en pantallas grandes */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    padding: 12px 20px;
+  }
+
+  nav #menu_mobile{
+    /* En este caso, el menu de móvil se oculta en pantallas grandes */
+    display: none;
+  }
+}
